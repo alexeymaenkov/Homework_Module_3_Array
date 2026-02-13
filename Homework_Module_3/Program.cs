@@ -23,10 +23,10 @@ namespace  Homework_Module_3
             
             LocalMaxima localMaxima = new();
             localMaxima.Run();
-            
+            */
             DynamicArray dynamicArray = new();
             dynamicArray.Run();
-            
+            /*
             SubarrayRepetitionsNumbers subarrayRepetitionsNumbers = new();
             subarrayRepetitionsNumbers.Run();
             
@@ -38,10 +38,10 @@ namespace  Homework_Module_3
             
             ShiftingArrayValues shiftingArrayValues = new();
             shiftingArrayValues.Run();
-            */
+            
             ParenthesizedExpression parenthesizedExpression = new();
             parenthesizedExpression.Run();
-            
+            */
         }
     }
 }

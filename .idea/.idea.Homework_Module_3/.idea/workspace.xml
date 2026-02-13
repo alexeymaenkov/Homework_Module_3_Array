@@ -8,19 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5e7d407-d858-48cf-ad1c-2e939aeb56b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_Module_3.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_Module_3/Homework_Module_3.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_Module_3/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_Module_3/Task10_Parenthesized expression/ParenthesizedExpression.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_Module_3/Task2_Working with specific rows/WorkingWithSpecificRowsColumns.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_Module_3/Task3_The largest element/LargestElement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_Module_3/Task4_Local maxima/LocalMaxima.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_Module_3/Task5_Dynamic array/DynamicArray.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_Module_3/Task6_Subarray of repetitions of numbers/SubarrayRepetitionsNumbers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_Module_3/Task7_Sorting numbers/SortingNumbers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_Module_3/Task8_Split/Split.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_Module_3/Task9_Shifting array values/ShiftingArrayValues.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Homework_Module_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Homework_Module_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_Module_3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task10_Parenthesized expression/ParenthesizedExpression.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task10_Parenthesized expression/ParenthesizedExpression.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task5_Dynamic array/DynamicArray.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task5_Dynamic array/DynamicArray.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +46,7 @@
     <commands />
     <urls />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
@@ -116,13 +108,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770877352783</updated>
-      <workItem from="1770877354672" duration="29378000" />
+      <workItem from="1770877354672" duration="34523000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1771013158384</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771013158384</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -137,6 +139,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -12,32 +12,61 @@ public class DynamicArray
         //Программа должна работать на основе расширения массива.
         //Внимание, нельзя использовать List<T> и Array.Resize
 
-        int[] numbers = new int[1];
-        int[] tempNumbers = new int[1];
         
         const string COMMAND_SUM = "sum";
         const string COMMAND_EXIT = "exit";
         
+        int[] numbers = new int[1];
+        
         bool isWorking = true;
-        int userNumber = 0;
+        
+        int sum = 0;
 
         while (isWorking)
         {
-            Console.WriteLine($"Для вывода суммы всех веденных чисел введите команду: {COMMAND_SUM}");
+            Console.Write("Введенные числа: ");
+            foreach (var num in numbers)
+            {
+                Console.Write(num + ", ");
+            }
+            
+            Console.WriteLine($"\nДля вывода суммы всех веденных чисел введите команду: {COMMAND_SUM}");
             Console.WriteLine($"Для выхода из программы введите команду: {COMMAND_EXIT}");
             Console.Write("Введите число или команду:");
             string userInput = Console.ReadLine();
             
             switch (userInput)
             {
-                case "sum":
+                case COMMAND_SUM:
+                    foreach (var num in numbers)
+                    {
+                        sum += num;
+                    }
+                    Console.WriteLine($"Сумма введенных чисел: {sum}");
                     break;
-                case "exit":
+                
+                case COMMAND_EXIT:
                     isWorking = false;
                     break;
+                
                 default:
-                    userNumber = Convert.ToInt32(userInput);
-                    Console.WriteLine(userInput);
+                    try
+                    {
+                        int userNumber = Convert.ToInt32(userInput);
+                        int[] tempNumbers = new int[numbers.Length + 1];
+                        
+                        for (int index = 0; index < numbers.Length; index++)
+                        {
+                            tempNumbers[index] = numbers[index];
+                        }
+                        
+                        tempNumbers[tempNumbers.Length - 1] = userNumber;
+                        numbers = tempNumbers;
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("Ошибка ввода! Попробуйте еще раз:");
+                    }
                     break;
             }
         }

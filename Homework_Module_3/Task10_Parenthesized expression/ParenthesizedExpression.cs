@@ -11,7 +11,41 @@ public class ParenthesizedExpression
 
         //Пример “(()(()))” - строка корректная и максимум глубины равняется 3.
         //Пример некорректных строк: "(()", "())", ")(", "(()))(()"
+
+        string originStr = "()(())()";
+
+        int openCount = 0;
+        int closeCount = 0;
         
-        
+        foreach (var c in originStr)
+            Console.Write(c);
+
+        for (int i = 0; i < originStr.Length; i++)
+        {
+            if (originStr[i] == '(')
+            {
+                openCount++;
+            }
+            else
+            {
+                closeCount++;
+            }
+        }
+            
+        if (originStr.First() == ')' || originStr.Last() == '(' || openCount != closeCount)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("\nСтрока не является корректным скобочным выражением!");
+            Console.ResetColor();
+        }
+        else
+        {
+            if (openCount == closeCount)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("\nСтрока является корректным скобочным выражением!");
+                Console.ResetColor();
+            }
+        }
     }
 }
