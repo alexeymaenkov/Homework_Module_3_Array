@@ -38,8 +38,6 @@ public class SortingNumbers
         Console.WriteLine("Отсортированные элементы:");
         
         foreach (int element in array)
-        {
             Console.Write(element + " ");
-        }
     }
 }

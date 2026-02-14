@@ -14,8 +14,6 @@ public class Split
         string[] words = text.Split();
 
         foreach (var word in words)
-        {
             Console.WriteLine(word);
-        }
     }
 }

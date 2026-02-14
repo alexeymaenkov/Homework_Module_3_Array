@@ -23,13 +23,13 @@ namespace  Homework_Module_3
             
             LocalMaxima localMaxima = new();
             localMaxima.Run();
-            */
+            
             DynamicArray dynamicArray = new();
             dynamicArray.Run();
-            /*
+            */
             SubarrayRepetitionsNumbers subarrayRepetitionsNumbers = new();
             subarrayRepetitionsNumbers.Run();
-            
+            /*
             SortingNumbers sortingNumbers = new();
             sortingNumbers.Run();
             

@@ -20,7 +20,7 @@ public class ShiftingArrayValues
             Console.Write(array[index] + ", ");
         }
 
-        Console.Write("\nНа сколь позиций вы хотите сдвинуть массив влево: ");
+        Console.Write("\nНа сколько позиций вы хотите сдвинуть массив влево: ");
         int shiftLeft  = Convert.ToInt32(Console.ReadLine());
         
         for (int index = 0; index < shiftLeft; index++)

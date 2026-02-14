@@ -17,10 +17,9 @@ public class DynamicArray
         const string COMMAND_EXIT = "exit";
         
         int[] numbers = new int[1];
+        int sum = 0;
         
         bool isWorking = true;
-        
-        int sum = 0;
 
         while (isWorking)
         {
@@ -60,7 +59,7 @@ public class DynamicArray
                             tempNumbers[index] = numbers[index];
                         }
                         
-                        tempNumbers[tempNumbers.Length - 1] = userNumber;
+                        tempNumbers[^1] = userNumber;
                         numbers = tempNumbers;
                     }
                     catch (Exception)

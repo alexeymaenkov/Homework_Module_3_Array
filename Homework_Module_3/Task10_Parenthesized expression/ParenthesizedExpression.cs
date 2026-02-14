@@ -26,7 +26,7 @@ public class ParenthesizedExpression
             {
                 openCount++;
             }
-            else
+            else if (originStr[i] == ')')
             {
                 closeCount++;
             }

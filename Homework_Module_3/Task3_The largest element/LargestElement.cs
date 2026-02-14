@@ -30,7 +30,6 @@ public class LargestElement
             }
             Console.WriteLine();
         }
-        
 
         foreach (int element in arrayA)
         {

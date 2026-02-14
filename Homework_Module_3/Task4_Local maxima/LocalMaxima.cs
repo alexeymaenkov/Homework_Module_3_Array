@@ -20,14 +20,10 @@ public class LocalMaxima
         
         int[] array = new int[arrayLength];
 
-        for (int arrayElement = 0; arrayElement < arrayLength; arrayElement++)
+        for (int index = 0; index < arrayLength; index++)
         {
-            array[arrayElement] = random.Next(minArrayElement, maxArrayElement);
-        }
-
-        foreach (int element in array)
-        {
-            Console.Write(element + " ");
+            array[index] = random.Next(minArrayElement, maxArrayElement);
+            Console.Write(array[index] + " ");
         }
 
         Console.Write("\nЛокальные максимумы: ");
@@ -42,12 +38,14 @@ public class LocalMaxima
                         Console.Write(array[index] + " ");
                     }
                     break;
+                
                 case arrayLength - 1:
                     if (array[index] > array[index - 1])
                     {
-                        Console.Write(array[index] + " ");
+                        Console.Write(array[index]);
                     }
                     break;
+                
                 default:
                     if (array[index] >= array[index + 1] && array[index] >= array[index - 1])
                     {
