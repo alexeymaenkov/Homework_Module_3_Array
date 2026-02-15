@@ -18,7 +18,6 @@ public class SubarrayRepetitionsNumbers
         
         int minArrayElement = 1;
         int maxArrayElement = 9;
-        
         int repetCount = 1;
         int repetNumber;
         int tempRepetCount = 1;

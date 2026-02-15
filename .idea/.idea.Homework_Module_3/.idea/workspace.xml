@@ -9,13 +9,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a5e7d407-d858-48cf-ad1c-2e939aeb56b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Homework_Module_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Homework_Module_3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_Module_3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task10_Parenthesized expression/ParenthesizedExpression.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task10_Parenthesized expression/ParenthesizedExpression.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task3_The largest element/LargestElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task3_The largest element/LargestElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task5_Dynamic array/DynamicArray.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task5_Dynamic array/DynamicArray.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task4_Local maxima/LocalMaxima.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task4_Local maxima/LocalMaxima.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task6_Subarray of repetitions of numbers/SubarrayRepetitionsNumbers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task6_Subarray of repetitions of numbers/SubarrayRepetitionsNumbers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task8_Split/Split.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task8_Split/Split.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task9_Shifting array values/ShiftingArrayValues.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task9_Shifting array values/ShiftingArrayValues.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "alexeymaenkov"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/alexeymaenkov/Homework_Module_3_Array.git",
+    "accountId": "9330590c-59ee-455e-aca5-62812c5f7f10"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1b7e295e9f75e9f288460bbda39ce2270b4ddf34be64b525b16af8bcae65f34/Random.ImplBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2732d66c405b45d5f571abc2f54458cac1facd4829d999e48b33d25d7866e83/Random.cs" root0="FORCE_HIGHLIGHTING" />
@@ -112,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770877352783</updated>
-      <workItem from="1770877354672" duration="55650000" />
+      <workItem from="1770877354672" duration="57833000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -138,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771108903648</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed Task with comments 2">
+      <option name="closed" value="true" />
+      <created>1771137972773</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771137972773</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +179,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="All Tasks done" />
     <MESSAGE value="Completed Task with comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Task with comments" />
+    <MESSAGE value="Completed Task with comments 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Task with comments 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -12,7 +12,6 @@ public class LargestElement
 
         int arrayALengthX = 10;
         int arrayALengthY = 10;
-        
         int minArrayAElement = 10;
         int maxArrayAElement = 99;
         int maxElement = Int32.MinValue;

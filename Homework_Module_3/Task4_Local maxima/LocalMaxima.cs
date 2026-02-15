@@ -11,9 +11,9 @@ public class LocalMaxima
         //Программа должна работать с массивом любого размера.
         //Массив всех локальных максимумов не нужен.
         
-        Random random = new ();
-        
         const int arrayLength = 30;
+        
+        Random random = new ();
         
         int minArrayElement = 10;
         int maxArrayElement = 99;

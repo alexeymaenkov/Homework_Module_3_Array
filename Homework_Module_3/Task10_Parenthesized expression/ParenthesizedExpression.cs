@@ -19,13 +19,13 @@ public class ParenthesizedExpression
         foreach (var c in originStr)
             Console.Write(c);
 
-        for (int i = 0; i < originStr.Length; i++)
+        for (int index = 0; index < originStr.Length; index++)
         {
-            if (originStr[i] == '(')
+            if (originStr[index] == '(')
             {
                 openCount++;
             }
-            else if (originStr[i] == ')')
+            else if (originStr[index] == ')')
             {
                 closeCount++;
             }
