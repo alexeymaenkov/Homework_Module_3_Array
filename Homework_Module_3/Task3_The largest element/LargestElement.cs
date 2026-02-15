@@ -6,7 +6,6 @@ public class LargestElement
     {
         //Найти наибольший элемент матрицы A(10,10) и записать ноль в те ячейки,
         //где он находятся. Вывести наибольший элемент, исходную и полученную матрицу.
-
         //Массив под измененную версию не нужен.
         
         Random random = new();
@@ -16,7 +15,6 @@ public class LargestElement
         
         int minArrayAElement = 10;
         int maxArrayAElement = 99;
-        
         int maxElement = Int32.MinValue;
         
         int[,] arrayA = new int[arrayALengthY, arrayALengthX];

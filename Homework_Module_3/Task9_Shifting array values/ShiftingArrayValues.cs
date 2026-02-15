@@ -8,18 +8,15 @@ public class ShiftingArrayValues
         //позиций влево, не используя других массивов.
         //Пример для сдвига один раз: {1, 2, 3, 4} => {2, 3, 4, 1}
         
-        
         int[] array = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
         int tempArrayElement;
 
         Console.WriteLine("Исходный массив: ");
-        
-        for (int index = 0; index < array.Length; index++)
-        {
-            Console.Write(array[index] + ", ");
-        }
 
+        foreach (var element in array)
+            Console.Write(element + ", ");
+        
         Console.Write("\nНа сколько позиций вы хотите сдвинуть массив влево: ");
         int shiftLeft  = Convert.ToInt32(Console.ReadLine());
         
@@ -33,9 +30,7 @@ public class ShiftingArrayValues
             }
         }
         
-        for (int index = 0; index < array.Length; index++)
-        {
-            Console.Write(array[index] + ", ");
-        }
+        foreach (var element in array)
+            Console.Write(element + ", ");
     }
 }

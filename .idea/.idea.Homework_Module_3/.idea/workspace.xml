@@ -12,10 +12,8 @@
       <change beforePath="$PROJECT_DIR$/Homework_Module_3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task10_Parenthesized expression/ParenthesizedExpression.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task10_Parenthesized expression/ParenthesizedExpression.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task3_The largest element/LargestElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task3_The largest element/LargestElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task4_Local maxima/LocalMaxima.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task4_Local maxima/LocalMaxima.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task5_Dynamic array/DynamicArray.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task5_Dynamic array/DynamicArray.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task6_Subarray of repetitions of numbers/SubarrayRepetitionsNumbers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task6_Subarray of repetitions of numbers/SubarrayRepetitionsNumbers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task7_Sorting numbers/SortingNumbers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task7_Sorting numbers/SortingNumbers.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task8_Split/Split.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task8_Split/Split.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task9_Shifting array values/ShiftingArrayValues.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task9_Shifting array values/ShiftingArrayValues.cs" afterDir="false" />
     </list>
@@ -114,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770877352783</updated>
-      <workItem from="1770877354672" duration="54092000" />
+      <workItem from="1770877354672" duration="55650000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -132,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771018251757</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Completed Task with comments">
+      <option name="closed" value="true" />
+      <created>1771108903648</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771108903648</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +161,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="All Tasks done" />
-    <option name="LAST_COMMIT_MESSAGE" value="All Tasks done" />
+    <MESSAGE value="Completed Task with comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Task with comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

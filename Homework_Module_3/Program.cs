@@ -26,19 +26,19 @@ namespace  Homework_Module_3
             
             DynamicArray dynamicArray = new();
             dynamicArray.Run();
-            */
+            
             SubarrayRepetitionsNumbers subarrayRepetitionsNumbers = new();
             subarrayRepetitionsNumbers.Run();
-            /*
+            
             SortingNumbers sortingNumbers = new();
             sortingNumbers.Run();
             
             Split split = new();
             split.Run();
-            
+            */
             ShiftingArrayValues shiftingArrayValues = new();
             shiftingArrayValues.Run();
-            
+            /*
             ParenthesizedExpression parenthesizedExpression = new();
             parenthesizedExpression.Run();
             */
