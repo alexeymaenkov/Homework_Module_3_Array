@@ -9,26 +9,24 @@ public class LargestElement
         //Массив под измененную версию не нужен.
         
         Random random = new();
-
-        int arrayALengthX = 10;
-        int arrayALengthY = 10;
-        int minArrayAElement = 10;
-        int maxArrayAElement = 99;
+        
+        int minMatrixElement = 10;
+        int maxMatrixElement = 99;
         int maxElement = Int32.MinValue;
         
-        int[,] arrayA = new int[arrayALengthY, arrayALengthX];
+        int[,] matrix = new int[10, 10];
 
-        for (int arrayY = 0; arrayY < arrayALengthY; arrayY++)
+        for (int i = 0; i < matrix.GetLength(0); i++)
         {
-            for (int arrayX = 0; arrayX < arrayALengthX; arrayX++)
+            for (int j = 0; j < matrix.GetLength(1); j++)
             {
-                arrayA[arrayY, arrayX] = random.Next(minArrayAElement, maxArrayAElement);
-                Console.Write(arrayA[arrayY, arrayX] + " ");
+                matrix[i, j] = random.Next(minMatrixElement, maxMatrixElement);
+                Console.Write(matrix[i, j] + " ");
             }
             Console.WriteLine();
         }
 
-        foreach (int element in arrayA)
+        foreach (int element in matrix)
         {
             if (element > maxElement)
                 maxElement = element;
@@ -36,15 +34,15 @@ public class LargestElement
         
         Console.WriteLine($"\nМаксимальный элемент массива равен: {maxElement}\n");
         
-        for (int arrayY = 0; arrayY < arrayALengthY; arrayY++)
+        for (int i = 0; i < matrix.GetLength(0); i++)
         {
-            for (int arrayX = 0; arrayX < arrayALengthX; arrayX++)
+            for (int j = 0; j < matrix.GetLength(1); j++)
             {
-                if (arrayA[arrayY, arrayX] == maxElement)
+                if (matrix[i, j] == maxElement)
                 {
-                    arrayA[arrayY, arrayX] = 0;
+                    matrix[i, j] = 0;
                 }
-                Console.Write(arrayA[arrayY, arrayX] + " ");
+                Console.Write(matrix[i, j] + " ");
             }
             Console.WriteLine();
         }

@@ -11,48 +11,37 @@ public class LocalMaxima
         //Программа должна работать с массивом любого размера.
         //Массив всех локальных максимумов не нужен.
         
-        const int arrayLength = 30;
-        
         Random random = new ();
         
         int minArrayElement = 10;
         int maxArrayElement = 99;
         
-        int[] array = new int[arrayLength];
+        int[] array = new int[30];
 
-        for (int index = 0; index < arrayLength; index++)
+        for (int i = 0; i < array.Length; i++)
         {
-            array[index] = random.Next(minArrayElement, maxArrayElement);
-            Console.Write(array[index] + " ");
+            array[i] = random.Next(minArrayElement, maxArrayElement);
+            Console.Write(array[i] + " ");
         }
 
         Console.Write("\nЛокальные максимумы: ");
-
-        for (int index = 0; index < array.Length; index++)
+        
+        if (array[0] > array[0 + 1])
         {
-            switch (index)
+            Console.Write(array[0] + " ");
+        }
+
+        for (int i = 1; i < array.Length - 1; i++)
+        {
+            if (array[i] >= array[i + 1] && array[i] >= array[i - 1])
             {
-                case 0:
-                    if (array[index] > array[index + 1])
-                    {
-                        Console.Write(array[index] + " ");
-                    }
-                    break;
-                
-                case arrayLength - 1:
-                    if (array[index] > array[index - 1])
-                    {
-                        Console.Write(array[index]);
-                    }
-                    break;
-                
-                default:
-                    if (array[index] >= array[index + 1] && array[index] >= array[index - 1])
-                    {
-                        Console.Write(array[index] + " ");
-                    }
-                    break;
+                Console.Write(array[i] + " ");
             }
+        }
+        
+        if (array[array.Length - 1] > array[array.Length - 2])
+        {
+            Console.Write(array[array.Length - 1]);
         }
     }
 }

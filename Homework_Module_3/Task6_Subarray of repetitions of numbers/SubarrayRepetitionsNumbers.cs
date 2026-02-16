@@ -14,61 +14,53 @@ public class SubarrayRepetitionsNumbers
         
         Random random = new ();
         
-        const int arrayLength = 30;
-        
         int minArrayElement = 1;
         int maxArrayElement = 9;
-        int repetCount = 1;
-        int repetNumber;
-        int tempRepetCount = 1;
+        
+        int[] array = new int[30];
+        
+        for (int i = 0; i < array.Length; i++)
+        {
+            array[i] = random.Next(minArrayElement, maxArrayElement);
+            Console.Write(array[i] + " ");
+        }
         
         StringBuilder repeatsNumbers = new ();
         
-        string resultStringRepetNums = string.Empty;
+        int currentLocalMax = 1;
         
-        int[] array = new int[arrayLength];
-        
-        for (int arrayElement = 0; arrayElement < arrayLength; arrayElement++)
+        for (int i = 0; i < array.Length - 1; i++)
         {
-            array[arrayElement] = random.Next(minArrayElement, maxArrayElement);
-            Console.Write(array[arrayElement] + " ");
-        }
-
-        foreach (int element in array)
-            Console.Write(element + " ");
-        
-        for (int index = 0; index < array.Length - 1; index++)
-        {
-            if (array[index] == array[index + 1])
+            int repeatCount = 1;
+            
+            if (array[i] == array[i + 1])
             {
-                repetCount++;
-                repetNumber = array[index];
+                repeatCount++;
+                int repeatNumber = array[i];
                 
-                if (repetCount > tempRepetCount)
+                if (repeatCount > currentLocalMax)
                 {
                     repeatsNumbers.Clear();
-                    tempRepetCount = repetCount;
-                    repeatsNumbers.Append(repetNumber);
+                    currentLocalMax = repeatCount;
+                    repeatsNumbers.Append(repeatNumber);
                 }
-                else if (repetCount == tempRepetCount)
+                else if (repeatCount == currentLocalMax)
                 {
-                    repeatsNumbers.Append(repetNumber);
+                    repeatsNumbers.Append(repeatNumber);
                 }
-            }
-            else
-            {
-                repetCount = 1;
             }
         }
+        
+        string resultStringRepeatNums = string.Empty;
         
         for (int i = 0; i < repeatsNumbers.Length; i++)
         {
-            if (!resultStringRepetNums.Contains(repeatsNumbers[i]))
+            if (!resultStringRepeatNums.Contains(repeatsNumbers[i]))
             {
-                resultStringRepetNums += repeatsNumbers[i] + " ";
+                resultStringRepeatNums += repeatsNumbers[i] + " ";
             }
         }
         
-        Console.Write($"\nЧисло(а): {resultStringRepetNums} повторяется(ются) {tempRepetCount} раз(а) подряд.");
+        Console.Write($"\nЧисло(а): {resultStringRepeatNums} повторяется(ются) {currentLocalMax} раз(а) подряд.");
     }
 }

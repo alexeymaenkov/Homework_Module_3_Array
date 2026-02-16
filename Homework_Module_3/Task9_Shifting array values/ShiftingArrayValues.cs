@@ -10,8 +10,6 @@ public class ShiftingArrayValues
         
         int[] array = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
-        int tempArrayElement;
-
         Console.WriteLine("Исходный массив: ");
 
         foreach (var element in array)
@@ -20,13 +18,13 @@ public class ShiftingArrayValues
         Console.Write("\nНа сколько позиций вы хотите сдвинуть массив влево: ");
         int shiftLeft  = Convert.ToInt32(Console.ReadLine());
         
-        for (int index = 0; index < shiftLeft; index++)
+        int shift = shiftLeft % array.Length;
+        
+        for (int i = 0; i < shift; i++)
         {
-            for (int sortIndex = 0; sortIndex < array.Length -1; sortIndex++)
+            for (int j = 0; j < array.Length -1; j++)
             {
-                tempArrayElement = array[sortIndex];
-                array[sortIndex] = array[sortIndex + 1];
-                array[sortIndex + 1] = tempArrayElement;
+                (array[j], array[j + 1]) = (array[j + 1], array[j]);
             }
         }
         

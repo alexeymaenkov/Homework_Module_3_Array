@@ -16,16 +16,16 @@ public class ParenthesizedExpression
         int openCount = 0;
         int closeCount = 0;
         
-        foreach (var c in originStr)
-            Console.Write(c);
+        foreach (var close in originStr)
+            Console.Write(close);
 
-        for (int index = 0; index < originStr.Length; index++)
+        for (int i = 0; i < originStr.Length; i++)
         {
-            if (originStr[index] == '(')
+            if (originStr[i] == '(')
             {
                 openCount++;
             }
-            else if (originStr[index] == ')')
+            else if (originStr[i] == ')')
             {
                 closeCount++;
             }

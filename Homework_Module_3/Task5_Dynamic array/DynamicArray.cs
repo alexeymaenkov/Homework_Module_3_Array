@@ -30,9 +30,9 @@ public class DynamicArray
             
             Console.WriteLine($"\nДля вывода суммы всех веденных чисел введите команду: {COMMAND_SUM}");
             Console.WriteLine($"Для выхода из программы введите команду: {COMMAND_EXIT}");
-            Console.Write("Введите число или команду:");
+            Console.Write("Введите целое число или команду:");
             string userInput = Console.ReadLine();
-            
+
             switch (userInput)
             {
                 case COMMAND_SUM:
@@ -40,31 +40,33 @@ public class DynamicArray
                     {
                         sum += num;
                     }
+
                     Console.WriteLine($"Сумма введенных чисел: {sum}");
                     break;
-                
+
                 case COMMAND_EXIT:
                     isWorking = false;
                     break;
                 
                 default:
-                    try
+                    if (Convert.ToInt32(userInput) < int.MaxValue && Convert.ToInt32(userInput) > int.MinValue)
                     {
                         int userNumber = Convert.ToInt32(userInput);
                         int[] tempNumbers = new int[numbers.Length + 1];
                         
-                        for (int index = 0; index < numbers.Length; index++)
+                        for (int i = 0; i < numbers.Length; i++)
                         {
-                            tempNumbers[index] = numbers[index];
+                            tempNumbers[i] = numbers[i];
                         }
                         
                         tempNumbers[^1] = userNumber;
                         numbers = tempNumbers;
                     }
-                    catch (Exception)
+                    else
                     {
                         Console.WriteLine("Ошибка ввода! Попробуйте еще раз:");
                     }
+
                     break;
             }
         }

@@ -10,27 +10,26 @@ public class SortingNumbers
         
         Random random = new ();
         
-        int arrayLength = 10;
         int minArrayElement = 1;
         int maxArrayElement = 99;
         int tempArrayElement;
         
-        int[] array = new int[arrayLength];
+        int[] array = new int[10];
 
-        for (int index = 0; index < arrayLength; index++)
+        for (int i = 0; i < array.Length; i++)
         {
-            array[index] = random.Next(minArrayElement, maxArrayElement);
+            array[i] = random.Next(minArrayElement, maxArrayElement);
         }
 
-        for (int index = 0; index < arrayLength - 2; index++)
+        for (int i = 0; i < array.Length - 2; i++)
         {
-            for (int sortIndex = 0; sortIndex < arrayLength - 1; sortIndex++)
+            for (int j = 0; j < array.Length - 1; j++)
             {
-                if (array[sortIndex] > array[sortIndex + 1])
+                if (array[j] > array[j + 1])
                 {
-                    tempArrayElement = array[sortIndex];
-                    array[sortIndex] = array[sortIndex + 1];
-                    array[sortIndex + 1] = tempArrayElement;
+                    tempArrayElement = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = tempArrayElement;
                 }
             }
         }

@@ -9,9 +9,6 @@ public class WorkingWithSpecificRowsColumns
         //Вывести исходную матрицу и результаты вычислений.
 
         Random random = new();
-
-        int arrayLengthX = 3;
-        int arrayLengthY = 3;
         
         int minArrayElement = 1;
         int maxArrayElement = 10;
@@ -19,26 +16,26 @@ public class WorkingWithSpecificRowsColumns
         int sumSecondRow = 0;
         int multiplyFirstColumn = 1;
 
-        int[,] array = new int[arrayLengthY, arrayLengthX];
+        int[,] array = new int[3, 3];
 
-        for (int arrayY = 0; arrayY < arrayLengthY; arrayY++)
+        for (int i = 0; i < array.GetLength(0); i++)
         {
-            for (int arrayX = 0; arrayX < arrayLengthX; arrayX++)
+            for (int j = 0; j < array.GetLength(1); j++)
             {
-                array[arrayY, arrayX] = random.Next(minArrayElement, maxArrayElement);
-                Console.Write(array[arrayY, arrayX] + " ");
+                array[i, j] = random.Next(minArrayElement, maxArrayElement);
+                Console.Write(array[i, j] + " ");
             }
             Console.WriteLine();
         }
         
-        for (int arrayX = 0; arrayX < arrayLengthX; arrayX++)
+        for (int i = 0; i < array.GetLength(1); i++)
         {
-            sumSecondRow += array[1, arrayX];
+            sumSecondRow += array[array.GetLength(1) - 2, i];
         }
         
-        for (int arrayY = 0; arrayY < arrayLengthY; arrayY++)
+        for (int j = 0; j < array.GetLength(0); j++)
         {
-            multiplyFirstColumn *= array[arrayY, 0];
+            multiplyFirstColumn *= array[j, array.GetLength(0) - 3];
         }
 
         Console.WriteLine($"Сумма второй строки массива: {sumSecondRow}");
