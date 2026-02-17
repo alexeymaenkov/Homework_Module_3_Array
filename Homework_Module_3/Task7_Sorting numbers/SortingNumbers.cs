@@ -12,7 +12,6 @@ public class SortingNumbers
         
         int minArrayElement = 1;
         int maxArrayElement = 99;
-        int tempArrayElement;
         
         int[] array = new int[10];
 
@@ -27,9 +26,7 @@ public class SortingNumbers
             {
                 if (array[j] > array[j + 1])
                 {
-                    tempArrayElement = array[j];
-                    array[j] = array[j + 1];
-                    array[j + 1] = tempArrayElement;
+                    (array[j], array[j + 1]) = (array[j + 1], array[j]);
                 }
             }
         }

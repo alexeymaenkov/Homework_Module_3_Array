@@ -12,11 +12,12 @@ public class WorkingWithSpecificRowsColumns
         
         int minArrayElement = 1;
         int maxArrayElement = 10;
+        int[,] array = new int[3, 3];
         
         int sumSecondRow = 0;
         int multiplyFirstColumn = 1;
-
-        int[,] array = new int[3, 3];
+        int column = array.GetLength(0) - 3;
+        int row = array.GetLength(1) - 2;
 
         for (int i = 0; i < array.GetLength(0); i++)
         {
@@ -30,12 +31,12 @@ public class WorkingWithSpecificRowsColumns
         
         for (int i = 0; i < array.GetLength(1); i++)
         {
-            sumSecondRow += array[array.GetLength(1) - 2, i];
+            sumSecondRow += array[row, i];
         }
         
         for (int j = 0; j < array.GetLength(0); j++)
         {
-            multiplyFirstColumn *= array[j, array.GetLength(0) - 3];
+            multiplyFirstColumn *= array[j, column];
         }
 
         Console.WriteLine($"Сумма второй строки массива: {sumSecondRow}");

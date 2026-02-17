@@ -49,9 +49,8 @@ public class DynamicArray
                     break;
                 
                 default:
-                    if (Convert.ToInt32(userInput) < int.MaxValue && Convert.ToInt32(userInput) > int.MinValue)
+                    if (int.TryParse(userInput, out int userNumber))
                     {
-                        int userNumber = Convert.ToInt32(userInput);
                         int[] tempNumbers = new int[numbers.Length + 1];
                         
                         for (int i = 0; i < numbers.Length; i++)
@@ -64,9 +63,10 @@ public class DynamicArray
                     }
                     else
                     {
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("Ошибка ввода! Попробуйте еще раз:");
+                        Console.ResetColor();
                     }
-
                     break;
             }
         }

@@ -8,15 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5e7d407-d858-48cf-ad1c-2e939aeb56b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Homework_Module_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Homework_Module_3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task10_Parenthesized expression/ParenthesizedExpression.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task10_Parenthesized expression/ParenthesizedExpression.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_Module_3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task2_Working with specific rows/WorkingWithSpecificRowsColumns.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task2_Working with specific rows/WorkingWithSpecificRowsColumns.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task3_The largest element/LargestElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task3_The largest element/LargestElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task4_Local maxima/LocalMaxima.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task4_Local maxima/LocalMaxima.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task5_Dynamic array/DynamicArray.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task5_Dynamic array/DynamicArray.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task6_Subarray of repetitions of numbers/SubarrayRepetitionsNumbers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task6_Subarray of repetitions of numbers/SubarrayRepetitionsNumbers.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task7_Sorting numbers/SortingNumbers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task7_Sorting numbers/SortingNumbers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_Module_3/Task9_Shifting array values/ShiftingArrayValues.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_Module_3/Task9_Shifting array values/ShiftingArrayValues.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1770877352783</updated>
       <workItem from="1770877354672" duration="60295000" />
-      <workItem from="1771251742576" duration="8531000" />
+      <workItem from="1771251742576" duration="11244000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -168,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771139982112</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tasks - working on errors">
+      <option name="closed" value="true" />
+      <created>1771280166973</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771280166973</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +197,8 @@
     <MESSAGE value="Completed Task with comments" />
     <MESSAGE value="Completed Task with comments 2" />
     <MESSAGE value="Completed Tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Tasks" />
+    <MESSAGE value="Tasks - working on errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tasks - working on errors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
