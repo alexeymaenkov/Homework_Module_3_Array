@@ -14,10 +14,10 @@ namespace  Homework_Module_3
     {
         static void Main(string[] args)
         {
-            /*
+            
             WorkingWithSpecificRowsColumns workingWithSpecificRows = new();
             workingWithSpecificRows.Run();
-            
+            /*
             LargestElement largestElement = new();
             largestElement.Run();
             
@@ -29,10 +29,10 @@ namespace  Homework_Module_3
             
             SubarrayRepetitionsNumbers subarrayRepetitionsNumbers = new();
             subarrayRepetitionsNumbers.Run();
-            */
+            
             SortingNumbers sortingNumbers = new();
             sortingNumbers.Run();
-            /*
+            
             Split split = new();
             split.Run();
             

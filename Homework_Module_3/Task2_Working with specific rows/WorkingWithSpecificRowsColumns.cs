@@ -16,8 +16,8 @@ public class WorkingWithSpecificRowsColumns
         
         int sumSecondRow = 0;
         int multiplyFirstColumn = 1;
-        int column = array.GetLength(0) - 3;
-        int row = array.GetLength(1) - 2;
+        int columnNumber = 0;
+        int rowNunmber = 1;
 
         for (int i = 0; i < array.GetLength(0); i++)
         {
@@ -31,12 +31,12 @@ public class WorkingWithSpecificRowsColumns
         
         for (int i = 0; i < array.GetLength(1); i++)
         {
-            sumSecondRow += array[row, i];
+            sumSecondRow += array[rowNunmber, i];
         }
         
         for (int j = 0; j < array.GetLength(0); j++)
         {
-            multiplyFirstColumn *= array[j, column];
+            multiplyFirstColumn *= array[j, columnNumber];
         }
 
         Console.WriteLine($"Сумма второй строки массива: {sumSecondRow}");
